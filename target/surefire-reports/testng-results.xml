@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-11T16:56:56Z" name="RestAPISuite" finished-at="2021-08-11T16:56:57Z" duration-ms="953">
+    <groups>
+    </groups>
+    <test started-at="2021-08-11T16:56:56Z" name="RestAPITest" finished-at="2021-08-11T16:56:57Z" duration-ms="953">
+      <class name="com.assignment.testCases.TC001_ListofAllCustomers">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assignment.testCases.TC001_ListofAllCustomers@6b81ce95]" started-at="2021-08-11T16:56:57Z" name="setup" finished-at="2021-08-11T16:56:57Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.assignment.testCases.TC001_ListofAllCustomers@6b81ce95]" started-at="2021-08-11T16:56:57Z" name="createEmployee" finished-at="2021-08-11T16:56:57Z" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method signature="checkResposeBodyofAllCustomers()[pri:0, instance:com.assignment.testCases.TC001_ListofAllCustomers@6b81ce95]" started-at="2021-08-11T16:56:57Z" name="checkResposeBodyofAllCustomers" finished-at="2021-08-11T16:56:57Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBodyofAllCustomers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assignment.testCases.TC001_ListofAllCustomers@6b81ce95]" started-at="2021-08-11T16:56:57Z" name="tearDown" finished-at="2021-08-11T16:56:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assignment.testCases.TC001_ListofAllCustomers -->
+      <class name="com.assignment.testCases.TC002_CustomerView">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assignment.testCases.TC002_CustomerView@2a798d51]" started-at="2021-08-11T16:56:57Z" name="setup" finished-at="2021-08-11T16:56:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.assignment.testCases.TC002_CustomerView@2a798d51]" started-at="2021-08-11T16:56:57Z" name="createEmployee" finished-at="2021-08-11T16:56:57Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method signature="checkResposeBodyofCustomerView()[pri:0, instance:com.assignment.testCases.TC002_CustomerView@2a798d51]" started-at="2021-08-11T16:56:57Z" name="checkResposeBodyofCustomerView" finished-at="2021-08-11T16:56:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBodyofCustomerView -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assignment.testCases.TC002_CustomerView@2a798d51]" started-at="2021-08-11T16:56:57Z" name="tearDown" finished-at="2021-08-11T16:56:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assignment.testCases.TC002_CustomerView -->
+    </test> <!-- RestAPITest -->
+  </suite> <!-- RestAPISuite -->
+</testng-results>
